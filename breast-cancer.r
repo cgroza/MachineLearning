@@ -1,6 +1,7 @@
 library(class)                          # k nearest neighbours
 library(nnet)                           # neural networks
 library(e1071)                          # support vectorm machine
+library(C50)
 
 normalize = function(x)
 {
@@ -75,3 +76,23 @@ table(testing$Class, prediction)
 ## 2 349  17
 ## 4  16 178
 ## 0.9410714 accuracy. Slightly worse than the other two models.
+
+## DECISION TREE ALGORITHM
+
+c50Model = C5.0(training[-10], training$Class, trials = 20)
+prediction = predict(c50Model, testing[-10])
+table(testing$Class, prediction)
+
+## OUTPUT
+##     2   4
+## 2 357  14
+## 4   9 180
+## 0.9678571 accuracy. Best model so far.
+
+## It seems that cell shape, thickness and size are major predictors.
+## UniformityCellShape <= 2: 2 (80/1)
+## UniformityCellShape > 2:
+## :...ClumpThickness > 4: 4 (49/2)
+##     ClumpThickness <= 4:
+##     :...UniformityCellSize <= 5: 2 (6)
+##         UniformityCellSize > 5: 4 (4)
