@@ -27,11 +27,12 @@ Graphical representations of the models provided by the plot function are also i
 ## Support Vector Machine
 26 Mistakes out 560. Roughly the same as K nearest neighbours.
 
+
 | Matches  |         2 |   4 |
 | ---      |       --- |  -- |
 | 2        |       348 |  16 |
 | 4        |        10 | 186 |
-| Accuracy | 0.9535714       |
+| Accuracy | 0.9535714 |     |
 
 
 Note that this graph only shows the division as a function of only 1 factor. In
