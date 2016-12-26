@@ -31,7 +31,7 @@ Graphical representations of the models provided by the plot function are also i
 | ---      |       --- | ----- |
 | 2        |       348 |    16 |
 | 4        |        10 |   186 |
-| Accuracy | 0.9410714         |
+| Accuracy | 0.9535714         |
 
 Note that this graph only shows the division as a function of only 1 factor. In
 reality, the division is an n-dimensional hyperplane.
