@@ -20,7 +20,7 @@ Graphical representations of the models provided by the plot function are also i
 | ---      |     ----- | --- |
 | 2        |       356 |   8 |
 | 4        |        17 | 179 |
-| Accuracy | 0.9553571 |     |
+| Accuracy | 0.9553571       |
 
 ![Distribution of diagnostics in training set.](./knnModel.png)
 
@@ -31,7 +31,7 @@ Graphical representations of the models provided by the plot function are also i
 | ---      |       --- |  -- |
 | 2        |       348 |  16 |
 | 4        |        10 | 186 |
-| Accuracy | 0.9535714 |     |
+| Accuracy | 0.9535714       |
 
 
 Note that this graph only shows the division as a function of only 1 factor. In
@@ -47,18 +47,18 @@ nodes in hidden layer might yield better results.
 | ---      |       --- | ----- |
 | 2        |       349 |    17 |
 | 4        |        16 |   178 |
-| Accuracy | 0.9410714 |       |
+| Accuracy | 0.9410714         |
 
 ![Topology of Neural Network](./nnModel.png)
 
 ## C5.0 Decision Tree
 Best model so far with 23 mistakes. 
 
-| Matches |   2 |   4 |
-|     --- | --- | --- |
-|       2 | 357 |  14 |
-|       4 |   9 | 180 |
-| Accuracy| 0.9678571 |
+| Matches  |         2 |   4 |
+| ---      |       --- | --- |
+| 2        |       357 |  14 |
+| 4        |         9 | 180 |
+| Accuracy | 0.9678571       |
 
 ![Decision Tree Graph](./c50Model.png)
 
