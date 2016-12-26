@@ -9,17 +9,17 @@ with +90% accuracy include:
 
 ## K Nearest Neighbours
 | Matches |     2 |   4 |
-|     ___ | _____ | ___ |
+|     --- | ----- | --- |
 |       2 |   356 |   8 |
 |       4 |    17 | 179 |
 
-![Distribution of diagnostics in training set.](./knnModel.png)
-
 25 mistakes out of 560 data points. 0.9553571 accuracy.
+
+![Distribution of diagnostics in training set.](./knnModel.png)
 ## Support Vector Machine
 
 | Matches |   2 |   4 |
-|     ___ | ___ |  __ |
+|     --- | --- |  -- |
 |       2 | 348 |  16 |
 |       4 |  10 | 186 |
 
@@ -32,7 +32,7 @@ reality, the division is an n-dimensional hyperplane.
 
 ## Neural Network
 | Matches |   2 |     4 |
-|     ___ | ___ | _____ |
+|     --- | --- | ----- |
 |       2 | 349 |    17 |
 |       4 |  16 |   178 |
 
@@ -43,7 +43,7 @@ reality, the division is an n-dimensional hyperplane.
 ## C5.0 Decision Tree
 
 | Matches |   2 |   4 |
-|     ___ | ___ | ___ |
+|     --- | --- | --- |
 |       2 | 357 |  14 |
 |       4 |   9 | 180 |
 0.9678571 accuracy. Best model so far.
