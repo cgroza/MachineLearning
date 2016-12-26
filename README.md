@@ -15,6 +15,7 @@ Graphical representations of the models provided by the plot function are also i
 
 ## K Nearest Neighbours
 25 mistakes out of 560 data points.
+
 | Matches  |         2 |   4 |
 | ---      |     ----- | --- |
 | 2        |       356 |   8 |
@@ -25,6 +26,7 @@ Graphical representations of the models provided by the plot function are also i
 
 ## Support Vector Machine
 26 Mistakes out 560. Roughly the same as K nearest neighbours.
+
 | Matches  |         2 |   4 |
 | ---      |       --- |  -- |
 | 2        |       348 |  16 |
@@ -51,6 +53,7 @@ nodes in hidden layer might yield better results.
 
 ## C5.0 Decision Tree
 Best model so far with 23 mistakes. 
+
 | Matches |   2 |   4 |
 |     --- | --- | --- |
 |       2 | 357 |  14 |
